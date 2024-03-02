@@ -1,3 +1,3 @@
-const GREETINGS_URL = "http://localhost:4000/greetings";
+const GREETINGS_URL = 'http://localhost:4000/greetings';
 
-export { GREETINGS_URL }
+export default GREETINGS_URL;
