@@ -1,6 +1,6 @@
-import { fetchGreetings } from "../redux/slices/greetingsSlice";
-import { useEffect } from "react";
-import { useSelector, useDispatch } from "react-redux";
+import { useSelector, useDispatch } from 'react-redux';
+import { fetchGreetings } from '../redux/slices/greetingsSlice';
+import { useEffect } from 'react';
 
 const Greetings = () => {
   const dispatch = useDispatch();
@@ -12,7 +12,7 @@ const Greetings = () => {
 
   const handleClick = () => {
     dispatch(fetchGreetings());
-  }
+  };
 
   return (
     <div id="greetings-ctr">
@@ -20,6 +20,6 @@ const Greetings = () => {
       <button type="button" onClick={handleClick}>Click me</button>
     </div>
   );
-}
+};
 
 export default Greetings;
