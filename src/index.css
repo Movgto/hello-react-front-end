@@ -13,3 +13,47 @@
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #b2f8dd;
+}
+
+#greetings-ctr {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: solid black;
+  width: 40vw;
+  height: 30vw;
+  min-height: 30rem;
+  border-radius: 1rem;
+  box-shadow: #0b131b6a 0.2rem 0.4rem 1rem;
+  background-color: #50a0e1;
+  gap: 2rem;
+}
+
+#greeting {
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+button {
+  color: white;
+  font-weight: bold;
+  padding: 0.2rem;
+  background-color: #1c3972;
+  border: none;
+  border-radius: 1rem;
+}
+
+button:hover {
+  background-color: #3d67b3;
+  cursor: pointer;
+}
