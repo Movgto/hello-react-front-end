@@ -10,12 +10,13 @@
 
 - [📖 About the Project](#about-project)
 - [🛠 Built With](#built-with)
-- [Key Features](#key-features)
-- [Future Features](#future-features)
+  - [Teck Stack](#tech-stack)
+  - [Key Features](#key-features)
+  - [Future Features](#future-features)
 - [💻 Getting Started](#getting-started)
-- [Setup](#setup)
-- [Prerequisites](#prerequisites)
-- [Usage](#usage)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🤝 Contributing](#contributing)
 - [⭐️ Show Your Support](#support)
@@ -27,9 +28,13 @@ Hello React is the front-end for a simple greetings application.
 
 ## 🛠 Built With <a name="built-with"></a>
 
-- React-redux.
-- React-router.
-- Node.js
+### Tech Stack <a name="tech-stack"></a>
+
+<ul>
+  <li>React</li>
+  <li>React-redux</li>
+  <li>React-router</li>
+</ul>
 
 ##  Key Features <a name="key-features"></a>
 - **The power of Ruby on Rails and React working together as back-end and front-end, respectively.**
