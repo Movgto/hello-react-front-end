@@ -48,16 +48,16 @@ To get started with the app, follow the instructions below:
 1. Clone the project repository:
 
    ```bash
-   git clone git@github.com:Movgto/rails-react-greetings.git
+   git clone git@github.com:Movgto/hello-react-front-end.git
     ```
 2. Navigate to the project folder:
    ```bash
-   cd rails-react-greetings
+   cd hello-react-front-end
    ```
 ### Prerequisites <a name="prerequisites"></a>
 Before you can run this app, make sure you have the following prerequisites and configurations in place:
 
-- **Rails back-end**: This app needs to be connected to an API managing the back-end in order to work properly. So, see the instructions for setting up the back-end application [here](#somewhere).
+- **Rails back-end**: <a name="backend-instructions"></a> This app needs to be connected to an API managing the back-end in order to work properly. So, see the instructions [here](https://github.com/Movgto/hello-rails-back-end) for setting up the back-end application.
 
 - **Node.js**: This is mandatory to run the front-end side of the application made with React since we needed for installing the dependencies for the project.
 
@@ -80,7 +80,7 @@ And this to start the React application on the local server:
 npm start
 ```
 
-**Congratulations, now you have both applications running! (Assuming that you also followed these [steps]() to run the back-end)**
+**Congratulations, now you have both applications running! (Assuming that you also followed these [instructions](#backend-instructions) to run the back-end)**
 
 Now just open your browser and go to [this link](localhost:3000) and see them in action.
 
