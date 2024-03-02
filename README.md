@@ -99,7 +99,7 @@ Now just open your browser and go to [this link](localhost:3000) and see them in
 ## 🤝 Contributing <a name="contributing"></a>
 
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](https://github.com/Movgto/react-rails-greetings/issues) and contribute to the project.
+Feel free to check the [issues page](https://github.com/Movgto/hello-react-front-end/issues) and contribute to the project.
 
 ## ⭐️ Show Your Support <a name="support"></a>
 If you like this project, please show your support with a ⭐️, that would be really meaninful for me, thank you.
