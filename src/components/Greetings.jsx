@@ -1,6 +1,6 @@
+import { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
 import { fetchGreetings } from '../redux/slices/greetingsSlice';
-import { useEffect } from 'react';
 
 const Greetings = () => {
   const dispatch = useDispatch();
