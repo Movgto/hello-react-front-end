@@ -1,70 +1,113 @@
-# Getting Started with Create React App
+<a name="readme-top"></a>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
 
-## Available Scripts
+  <h1><b>Hello React Front End</b></h1>
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+## 📗 Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- [📖 About the Project](#about-project)
+- [🛠 Built With](#built-with)
+  - [Teck Stack](#tech-stack)
+  - [Key Features](#key-features)
+  - [Future Features](#future-features)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Usage](#usage)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show Your Support](#support)
+- [📜 License](#license)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 📖 About the Project <a name="about-project"></a>
 
-### `npm test`
+Hello React is the front-end for a simple greetings application.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🛠 Built With <a name="built-with"></a>
 
-### `npm run build`
+### Tech Stack <a name="tech-stack"></a>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<ul>
+  <li>React</li>
+  <li>React-redux</li>
+  <li>React-router</li>
+</ul>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+##  Key Features <a name="key-features"></a>
+- **The power of Ruby on Rails and React working together as back-end and front-end, respectively.**
+- **This is only a test app, and basically it just displays greeting messages on the home page (only one available).**
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔭 Future Features <a name="future-features"></a>
 
-### `npm run eject`
+- User registration and sessions, reservations maybe?
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 💻 Getting Started <a name="getting-started"></a>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To get started with the app, follow the instructions below:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 🛠 Setup <a name="setup"></a>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Clone the project repository:
 
-## Learn More
+   ```bash
+   git clone git@github.com:Movgto/hello-react-front-end.git
+    ```
+2. Navigate to the project folder:
+   ```bash
+   cd hello-react-front-end
+   ```
+### Prerequisites <a name="prerequisites"></a>
+Before you can run this app, make sure you have the following prerequisites and configurations in place:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- **Rails back-end**: <a name="backend-instructions"></a> This app needs to be connected to an API managing the back-end in order to work properly. So, see the instructions [here](https://github.com/Movgto/hello-rails-back-end) for setting up the back-end application.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- **Node.js**: This is mandatory to run the front-end side of the application made with React since we needed for installing the dependencies for the project.
 
-### Code Splitting
+With these prerequisites and configurations in place, you'll be ready to set up and run the app.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+### 📖 Usage <a name="usage"></a>
+Follow these steps to use the app:
 
-### Analyzing the Bundle Size
+In your terminal and the root of the project.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Run this for installing the dependencies:
 
-### Making a Progressive Web App
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+And this to start the React application on the local server:
 
-### Advanced Configuration
+```bash
+npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+**Congratulations, now you have both applications running! (Assuming that you also followed these [instructions](#backend-instructions) to run the back-end)**
 
-### Deployment
+Now just open your browser and go to [this link](localhost:3000) and see them in action.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+## 👥 Authors <a name="authors"></a>
 
-### `npm run build` fails to minify
+👤 **Gumaro Monroy Vazquez**
+- GitHub: [GitHub](https://github.com/Movgto)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gumaro-monroy-vazquez-1705aa165/)
+- WellFound: [Wellfound](https://wellfound.com/u/maro-monroy)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Movgto/hello-react-front-end/issues) and contribute to the project.
+
+## ⭐️ Show Your Support <a name="support"></a>
+If you like this project, please show your support with a ⭐️, that would be really meaninful for me, thank you.
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to express my gratitude to [Microverse](https://github.com/microverseinc) for providing us with the opportunity to work on this project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📜 License <a name="license"></a>
+This project is [MIT](./LICENSE) licensed.
