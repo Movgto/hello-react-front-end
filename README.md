@@ -1,65 +1,108 @@
-# React and Redux
+<a name="readme-top"></a>
 
-If you are not familiar with linters and GitHub Actions, read [root level README](../README.md).
+<div align="center">
 
-## Set-up GitHub Actions
+  <h1><b>Hello React Front End</b></h1>
 
-This GitHub Action is going to run [ESLint](https://eslint.org/) and [Stylelint](https://stylelint.io/) to help you find style issues.
+</div>
 
-[Stylelint](https://stylelint.io/) is a linter for your stylesheets that helps you avoid errors and enforce conventions.
+## 📗 Table of Contents
 
-[ESLint](https://eslint.org/) is a tool for identifying and reporting on patterns found in ECMAScript/JavaScript code, with the goal of making code more consistent and avoiding bugs.
+- [📖 About the Project](#about-project)
+- [🛠 Built With](#built-with)
+- [Key Features](#key-features)
+- [Future Features](#future-features)
+- [💻 Getting Started](#getting-started)
+- [Setup](#setup)
+- [Prerequisites](#prerequisites)
+- [Usage](#usage)
+- [👥 Authors](#authors)
+- [🤝 Contributing](#contributing)
+- [⭐️ Show Your Support](#support)
+- [📜 License](#license)
 
-Please do the following **steps in this order**:
+## 📖 About the Project <a name="about-project"></a>
 
-1. In the first commit of your feature branch create a `.github/workflows` folder and add a copy of [`.github/workflows/linters.yml`](.github/workflows/linters.yml) to that folder.
-    - **Remember** to use the file linked above
-    - **Remember** that `.github` folder starts with a dot.
-2. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-3. When you open your first pull request you should see the result of the GitHub Actions:
+Hello React is the front-end for a simple greetings application.
 
-![gh actions checks](../assets/images/gh-actions-eslint-stylelint-checks.png)
+## 🛠 Built With <a name="built-with"></a>
 
-Click on the `Details` link to see the full output and the errors that need to be fixed:
+- React-redux.
+- React-router.
+- Node.js
 
-![gh actions failing checks](../assets/images/gh-actions-html-css-failing-checks.png)
+##  Key Features <a name="key-features"></a>
+- **The power of Ruby on Rails and React working together as back-end and front-end, respectively.**
+- **This is only a test app, and basically it just displays greeting messages on the home page (only one available).**
 
-## Set-up linters in your local env
+## 🔭 Future Features <a name="future-features"></a>
 
-### ESLint
+- User registration and sessions, reservations maybe?
 
-1. Run 
+## 💻 Getting Started <a name="getting-started"></a>
+
+To get started with the app, follow the instructions below:
+
+### 🛠 Setup <a name="setup"></a>
+
+1. Clone the project repository:
+
+   ```bash
+   git clone git@github.com:Movgto/rails-react-greetings.git
     ```
-    npm install --save-dev eslint@7.x eslint-config-airbnb@18.x eslint-plugin-import@2.x eslint-plugin-jsx-a11y@6.x eslint-plugin-react@7.x eslint-plugin-react-hooks@4.x @babel/eslint-parser@7.x @babel/core@7.x  @babel/plugin-syntax-jsx@7.x  @babel/preset-react@7.x @babel/preset-react@7.x
-    ```
-    *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
-2. Copy [.eslintrc.json](./.eslintrc.json) and [.babelrc](./.babelrc) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-    - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx eslint "**/*.{js,jsx}"` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Eslint](https://eslint.org/docs/latest/user-guide/command-line-interface#fixing-problems) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
-
-### Stylelint
-
-1. Run
-
+2. Navigate to the project folder:
+   ```bash
+   cd rails-react-greetings
    ```
-   npm install --save-dev stylelint@13.x stylelint-scss@3.x stylelint-config-standard@21.x stylelint-csstree-validator@1.x
-   ```
+### Prerequisites <a name="prerequisites"></a>
+Before you can run this app, make sure you have the following prerequisites and configurations in place:
 
-   *not sure how to use npm? Read [this](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm).*
+- **Rails back-end**: This app needs to be connected to an API managing the back-end in order to work properly. So, see the instructions for setting up the back-end application [here](#somewhere).
 
-2. Copy [.stylelintrc.json](./.stylelintrc.json) to the root directory of your project.
-3. **Do not make any changes in config files - they represent style guidelines that you share with your team - which is a group of all Microverse students.**
-   - If you think that change is necessary - open a [Pull Request in this repository](../README.md#contributing) and let your code reviewer know about it.
-4. Run `npx stylelint "**/*.{css,scss}"` on the root of your directory of your project.
-5. Fix linter errors.
-6. **IMPORTANT NOTE**: feel free to research [auto-correct options for Stylelint](https://stylelint.io/user-guide/usage/options) if you get a flood of errors but keep in mind that correcting style errors manually will help you to make a habit of writing a clean code!
+- **Node.js**: This is mandatory to run the front-end side of the application made with React since we needed for installing the dependencies for the project.
 
-## Test/Deployment Actions
+With these prerequisites and configurations in place, you'll be ready to set up and run the app.
 
-Feel free to add your own deployment actions which can run your tests and deploy to Heroku.
+### 📖 Usage <a name="usage"></a>
+Follow these steps to use the app:
 
-Make sure that you do not modify the [`.github/workflows/linters.yml`](.github/workflows/linters.yml) but that you create a separe GitHub Action workflow file for that.
+In your terminal and the root of the project.
+
+Run this for installing the dependencies:
+
+```bash
+npm install
+```
+
+And this to start the React application on the local server:
+
+```bash
+npm start
+```
+
+**Congratulations, now you have both applications running! (Assuming that you also followed these [steps]() to run the back-end)**
+
+Now just open your browser and go to [this link](localhost:3000) and see them in action.
+
+## 👥 Authors <a name="authors"></a>
+
+👤 **Gumaro Monroy Vazquez**
+- GitHub: [GitHub](https://github.com/Movgto)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/gumaro-monroy-vazquez-1705aa165/)
+- WellFound: [Wellfound](https://wellfound.com/u/maro-monroy)
+
+## 🤝 Contributing <a name="contributing"></a>
+
+Contributions, issues, and feature requests are welcome!
+Feel free to check the [issues page](https://github.com/Movgto/react-rails-greetings/issues) and contribute to the project.
+
+## ⭐️ Show Your Support <a name="support"></a>
+If you like this project, please show your support with a ⭐️, that would be really meaninful for me, thank you.
+
+## 🙏 Acknowledgments <a name="acknowledgements"></a>
+
+I would like to express my gratitude to [Microverse](https://github.com/microverseinc) for providing us with the opportunity to work on this project.
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## 📜 License <a name="license"></a>
+This project is [MIT](./LICENSE) licensed.
